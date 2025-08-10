@@ -1,0 +1,15 @@
+[project]
+name = "mcp-newspaper4k"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=2.10.5",
+    "lxml[html-clean]>=6.0.0",
+    "mcp[cli]==1.11.0",
+    "newspaper4k[gnews]>=0.9.3.1",
+    "pydantic>=2.11.7",
+    "pytest>=8.4.1",
+    "tenacity>=9.1.2",
+]

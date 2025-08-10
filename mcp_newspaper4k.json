@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "newspaper4k": {
+      "command": "python",
+      "args": ["mcp_newspaper4k/server.py"],
+      "env": {
+        "PYTHONPATH": "."
+      }
+    }
+  }
+} 
